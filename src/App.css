@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  background-color: red;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  background-color: #ccc;
+  padding: 20px;
+  border: 1px solid #000;
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footer {
+  text-align: right;
+  background-color: #a2f6ff;
+  padding: 10px;
+}
